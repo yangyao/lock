@@ -1,0 +1,22 @@
+{
+    "name": "yangyao/lock",
+    "description": "lock",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.45"
+    },
+    "autoload":{
+        "psr-4":{
+            "Yangyao\\Lock\\":"src/",
+            "predis/predis": "~1.0"
+        },
+      "files": ["src/helpers.php"]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangyao",
+            "email": "yangyaohappy@outlook.com"
+        }
+    ]
+}
