@@ -3,12 +3,12 @@
     "description": "lock",
     "type": "library",
     "require": {
-        "php": ">=5.4.45"
+        "php": ">=5.4.45",
+        "predis/predis": "~1.0"
     },
     "autoload":{
         "psr-4":{
-            "Yangyao\\Lock\\":"src/",
-            "predis/predis": "~1.0"
+            "Yangyao\\Lock\\":"src/"
         },
       "files": ["src/helpers.php"]
     },
